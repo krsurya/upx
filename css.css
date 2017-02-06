@@ -1,0 +1,88 @@
+body{
+font-family:Arial;
+}
+
+.indx1{
+color:white;
+font-weight:normal;
+}
+
+
+
+.footer{
+background-color:#002233;
+width:100%;
+
+}
+#logo1{
+position:absolute;
+top:62px;
+left:60px;
+font-size:12px;
+}
+
+#dial{
+position:absolute;
+top:55px;
+left:150px;
+}
+
+#logo2{
+position:relative;
+top:62px;
+left:25px;
+font-size:12px;
+}
+
+#live{
+height:auto;
+width:100%;
+background-color:#ff9933;
+border-top-left-radius:5px;
+border-top-right-radius:5px;
+text-decoration:none;
+}
+
+#fast{
+background-color:#ff9933;
+width:95%;
+height:30px;
+font-size:20px;
+position:relative;
+top:-15px;
+left:-60px;
+}
+#fast:before{
+	content:'';
+	position:absolute;
+	top:0; right:0;
+	border-bottom:31px solid #002233;
+	border-left: 34px solid #ff9933;
+	border-radius: 14px 0px;
+	width:0;
+}
+#big{
+background-color:#ff9933;
+color:white;
+text-shadow:3px 2px 2px grey; 
+height:50px;
+font-size:30px;
+border-radius:5px;
+}
+#big:before{
+	content:'';
+	position:absolute;
+	top:0; right:0;
+	border-bottom:50px solid #002233;
+	border-left: 65px solid #ff9933;
+	width:50px;
+}
+
+<!-- field-->
+
+#agenda{
+background-color:#ff9933;
+height:495px;
+border-top-right-radius:15px;
+border-bottom-right-radius:15px;
+}
